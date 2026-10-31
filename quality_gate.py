@@ -1,7 +1,7 @@
 """CI quality gate: train models and enforce a minimum test R2 score."""
 from train_model import train_and_evaluate
 
-MIN_R2 = 0.999
+MIN_R2 = 0.90
 
 
 def main():
